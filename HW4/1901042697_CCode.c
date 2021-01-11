@@ -59,10 +59,10 @@ int main()
 			printf("-------------------------------\n");	 	
 		}													
 
-		close(serialport);														//Serial baglanti kapanir
+																//Serial baglanti kapanir
 
 	}
-	
+	close(serialport);
 	return 0;
 }
 
